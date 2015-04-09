@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>www.rotw.de.ki | Template</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/annotated/css/style.css" type="text/css" />
+<!--[if IE ]><style type="text/css">
+.title {
+padding-top:112px;
+}
+</style>
+<![endif]-->
+</head>
+<body>
+<div id="all">
+<div id="header">
+
+<span style="float:right;margin-right:5px;display:inline;">
+<a href="http://gsyc.es">gsyc</a> 
+<a href="http://urjc.es">URJC</a> 
+</span>
+
+<div class="title">{{ contenido }}</div>
+</div>
+
+<div id="content">
+<h1>Contenido</h1>
+<p>
+{{ contenido }}
+</p>
+<p>
+{{ estado }}
+</p>
+
+</div>
+</div>
+<div id="footer">&copy; 2015 {{ contenido}} | Design by <a href="http://www.rotw.de.ki/" target="_blank">RotW</a></div>
+</body>
+</html>
